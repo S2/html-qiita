@@ -1,0 +1,77 @@
+ul{
+    list-style : none;
+    display : block;
+    margin : 20px;
+}
+
+li{
+    display : block;
+}
+
+.block-element{
+    border : 1px solid black;
+}
+.block-element>div{
+    width : 20vw;
+    margin : 20px;
+    padding : 20px;
+    background-color : red;
+    border : 1px solid black;
+}
+
+.inline-element{
+    border : 1px solid black;
+}
+
+.inline-element>span{
+    margin : 20px;
+    padding : 20px;
+    background-color : red;
+    border : 1px solid black;
+}
+
+.elements>*{
+    border : 1px solid black;
+    padding : 3%;
+}
+
+.elements div,.elements li,.elements td{
+    font-size : 16px;
+    letter-spacing : 2px;
+    color : grey;
+}
+.elements h3{
+    font-size : 24px;
+    letter-spacing : 0;
+    color : black;
+}
+
+.elements>.ul-vertical>ul{
+    display : flex;
+    justify-content : space-between;
+    margin : 0 auto; 
+    width : 50%;
+}
+
+.elements>.ul-vertical>ul>li{
+    border : 1px solid black;
+}
+
+.elements>.table tr{
+}
+
+.elements>.table td,.elements>.table th{
+    border : 1px solid black;
+}
+
+.elements>.img img{
+    width : 20vw;
+    height : auto;
+    transition : ease .4s
+}
+
+.elements>.img img:hover{
+    width : 40vw;
+    height : auto;
+}
+
