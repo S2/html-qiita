@@ -75,3 +75,15 @@ li{
     height : auto;
 }
 
+.elements>.div-with-border>div{
+    background-color : #FFAAAA;
+    width : 40vw;
+    height : 10vh;
+    line-height : 10vh;
+    text-align : center;
+    vertical-align : middle;
+
+    border : 3px solid blue;
+    box-shadow:0px 0px 6px 3px blue;
+    border-radius:6px;
+}
